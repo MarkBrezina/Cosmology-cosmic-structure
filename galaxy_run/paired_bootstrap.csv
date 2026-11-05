@@ -1,0 +1,7 @@
+subset,reference,status,galaxies,candidate_minus_reference_dex,bootstrap_p025_dex,bootstrap_p975_dex,bootstrap_fraction_below_zero
+all,baryons,ineligible_invalid_predictions,,,,,
+all,rar,ineligible_invalid_predictions,,,,,
+all,radius_gradient,ineligible_invalid_predictions,,,,,
+outer,baryons,ok,103.0,-0.09387261562171087,-0.11763902903960885,-0.07057122127248812,1.0
+outer,rar,ok,103.0,0.05909188468467205,0.038943554058100315,0.08067394550724452,0.0
+outer,radius_gradient,ok,103.0,-0.011736301773220686,-0.03747008312631482,0.010772969694293453,0.827

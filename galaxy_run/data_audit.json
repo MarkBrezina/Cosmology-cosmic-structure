@@ -1,0 +1,10 @@
+{
+  "original_galaxies": 175,
+  "original_rows": 3391,
+  "eligible_galaxies": 147,
+  "profile_rows": 3090,
+  "scored_rows": 2696,
+  "nonpositive_feature_nodes_removed": 4,
+  "scoring_rule": "Q<=2; i>=30deg; 0<errV/V<0.1; physical baryonic profile at minimum mass scale",
+  "density_uses_observed_velocity": false
+}

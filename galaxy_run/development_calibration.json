@@ -1,0 +1,161 @@
+{
+  "baryons": {
+    "model": "baryons",
+    "theta": [
+      0.6788562130142048
+    ],
+    "parameters": {
+      "ln_mass_scale": 0.6788562130142048
+    },
+    "physical_parameters": {
+      "mass_scale": 1.971621327238099
+    },
+    "objective": 3770.1876734327643,
+    "optimizer_success": true,
+    "optimizer_status": 2,
+    "nfev_best_start": 9,
+    "training_invalid_points": 0,
+    "fit_method": "least_squares",
+    "successful_starts": 1,
+    "starts_attempted": 1,
+    "parameters_near_bounds": [],
+    "fit_scope": "shared global parameters; no per-galaxy fitted values"
+  },
+  "screened_lambda": {
+    "model": "screened_lambda",
+    "theta": [
+      0.6788143199363006
+    ],
+    "parameters": {
+      "ln_mass_scale": 0.6788143199363006
+    },
+    "physical_parameters": {
+      "mass_scale": 1.9715387316823423
+    },
+    "objective": 3769.525434015296,
+    "optimizer_success": true,
+    "optimizer_status": 2,
+    "nfev_best_start": 9,
+    "training_invalid_points": 0,
+    "fit_method": "least_squares",
+    "successful_starts": 1,
+    "starts_attempted": 1,
+    "parameters_near_bounds": [],
+    "fit_scope": "shared global parameters; no per-galaxy fitted values"
+  },
+  "rar": {
+    "model": "rar",
+    "theta": [
+      0.0618800240664383,
+      -9.998579321038028
+    ],
+    "parameters": {
+      "ln_mass_scale": 0.0618800240664383,
+      "log10_a0_m_s2": -9.998579321038028
+    },
+    "physical_parameters": {
+      "mass_scale": 1.0638347025096007,
+      "a0_m_s2": 1.0032765905253688e-10
+    },
+    "objective": 848.2864663771215,
+    "optimizer_success": true,
+    "optimizer_status": 2,
+    "nfev_best_start": 7,
+    "training_invalid_points": 0,
+    "fit_method": "least_squares",
+    "successful_starts": 6,
+    "starts_attempted": 6,
+    "parameters_near_bounds": [],
+    "fit_scope": "shared global parameters; no per-galaxy fitted values"
+  },
+  "shared_nfw": {
+    "model": "shared_nfw",
+    "theta": [
+      0.32959780240854364,
+      -22.835951740547795,
+      1.5296240580337181
+    ],
+    "parameters": {
+      "ln_mass_scale": 0.32959780240854364,
+      "log10_rho_h_kg_m3": -22.835951740547795,
+      "log10_rs_over_Rd": 1.5296240580337181
+    },
+    "physical_parameters": {
+      "mass_scale": 1.3904087969211592,
+      "rho_h_kg_m3": 1.458976374904275e-23,
+      "rs_over_Rd": 33.85509665534672
+    },
+    "objective": 1789.7885654407544,
+    "optimizer_success": true,
+    "optimizer_status": 2,
+    "nfev_best_start": 12,
+    "training_invalid_points": 0,
+    "fit_method": "least_squares",
+    "successful_starts": 6,
+    "starts_attempted": 6,
+    "parameters_near_bounds": [],
+    "fit_scope": "shared global parameters; no per-galaxy fitted values"
+  },
+  "radius_gradient": {
+    "model": "radius_gradient",
+    "theta": [
+      0.5363875005866714,
+      4.885294608427131,
+      2.403526796817426,
+      0.43728604496455875
+    ],
+    "parameters": {
+      "ln_mass_scale": 0.5363875005866714,
+      "ln_Vfield_km_s": 4.885294608427131,
+      "ln_r_transition_over_Rd": 2.403526796817426,
+      "ln_sharpness_n": 0.43728604496455875
+    },
+    "physical_parameters": {
+      "mass_scale": 1.7098189720061754,
+      "Vfield_km_s": 132.32944496179275,
+      "sharpness_n": 1.5484989540403824,
+      "r_transition_over_Rd": 11.062121519446983
+    },
+    "objective": 2353.378244091027,
+    "optimizer_success": true,
+    "optimizer_status": 2,
+    "nfev_best_start": 8,
+    "training_invalid_points": 0,
+    "fit_method": "least_squares",
+    "successful_starts": 6,
+    "starts_attempted": 6,
+    "parameters_near_bounds": [],
+    "fit_scope": "shared global parameters; no per-galaxy fitted values"
+  },
+  "density_gradient": {
+    "model": "density_gradient",
+    "theta": [
+      0.6722185465475845,
+      6.000617409559397,
+      -23.731858273703573,
+      -0.06598572005703325
+    ],
+    "parameters": {
+      "ln_mass_scale": 0.6722185465475845,
+      "ln_Vfield_km_s": 6.000617409559397,
+      "log10_rho_transition_kg_m3": -23.731858273703573,
+      "ln_sharpness_n": -0.06598572005703325
+    },
+    "physical_parameters": {
+      "mass_scale": 1.958577699983345,
+      "Vfield_km_s": 403.67795119463227,
+      "sharpness_n": 0.9361442322824172,
+      "rho_transition_kg_m3": 1.8541365978073124e-24
+    },
+    "objective": 2392.563556082801,
+    "optimizer_success": true,
+    "optimizer_status": 0,
+    "nfev_best_start": 219,
+    "training_invalid_points": 0,
+    "fit_method": "SLSQP_with_training_orbit_constraints",
+    "successful_starts": 3,
+    "starts_attempted": 6,
+    "parameters_near_bounds": [],
+    "fit_scope": "shared global parameters; no per-galaxy fitted values"
+  }
+}

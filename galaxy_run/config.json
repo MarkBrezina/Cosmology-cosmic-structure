@@ -1,0 +1,20 @@
+{
+  "seed": 26026,
+  "folds": 5,
+  "test_fraction": 0.2,
+  "starts": 6,
+  "max_nfev": 400,
+  "bootstrap": 2000,
+  "density_proxy": "enclosed_equivalent",
+  "smooth_dex": 0.15,
+  "disk_height_over_Rd": 0.1,
+  "velocity_floor_km_s": 5.0,
+  "mass_scale_min": 0.4,
+  "mass_scale_max": 2.5,
+  "mass_scale_log_prior_sd": 0.35,
+  "upsilon_disk": 0.5,
+  "upsilon_bulge": 0.7,
+  "h0": 70.0,
+  "omega_lambda": 0.7,
+  "field_speed_max_km_s": 1500.0
+}
