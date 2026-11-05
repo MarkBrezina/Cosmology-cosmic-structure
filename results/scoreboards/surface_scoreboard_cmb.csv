@@ -1,0 +1,8 @@
+model,extra numbers,Δχ² vs reference,best-fit parameters,Ωm,flow slope,w today,seconds
+"standard model (volume compounding, p = 1)",0,0.0,—,0.31,0.99,-1.0,16
+smooth surface (p = 2/3),0,1049.85,—,0.539,1.15,-0.333,89
+rough surface of dimension D (p = D/3),1,-0.23,D = 2.98,0.312,0.99,-0.988,18
+DESI's evolving dark energy,2,-5.25,"w0 = -0.873, wa = -0.473",0.314,1.0,-0.875,27
+void-surface law,2,23.76,"log10 x_void = -1.29, log10 R = -0.3",0.325,1.04,-0.687,47
+"switch-on by average density, with dilution",3,-6.17,"log10 x_half = 1.39, n = 1.11, p = 0.942",0.314,1.0,-0.915,40
+MY_LAW as specified (local density),0,7.54,—,0.303,1.08,-1.029,25
