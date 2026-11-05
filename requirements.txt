@@ -1,0 +1,9 @@
+# Versions this work was run with (Python 3.13). Later versions are likely fine.
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+matplotlib==3.11.2
+# only needed to regenerate the notebook from analysis/build_notebook.py
+nbformat==5.11.1
+# to open the notebook
+jupyterlab
